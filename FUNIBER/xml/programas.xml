@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entidad>
+<programa>
+    <codigo_area>01</codigo_area>
+    <codigo_programa>01</codigo_programa>
+    <descripcion>Máster Universitario en Gestión y Auditorías Ambientales</descripcion>
+</programa>
+<programa>
+    <codigo_area>02</codigo_area>
+    <codigo_programa>01</codigo_programa>
+    <descripcion>Maestría en Dirección Estratégica con Mención en Gerencia</descripcion>
+</programa>
+<programa>
+    <codigo_area>02</codigo_area>
+    <codigo_programa>02</codigo_programa>
+    <descripcion>Maestría en Dirección Estratégica con Especialización en Tecnologías de la Información</descripcion>
+</programa>
+<programa>
+    <codigo_area>02</codigo_area>
+    <codigo_programa>03</codigo_programa>
+    <descripcion>Maestría en Dirección Estratégica con mención en Telecomunicaciones</descripcion>
+</programa>
+<programa>
+    <codigo_area>03</codigo_area>
+    <codigo_programa>01</codigo_programa>
+    <descripcion>Máster Universitario en Formación de Profesores de Español como Lengua Extranjera</descripcion>
+</programa>
+<programa>
+    <codigo_area>03</codigo_area>
+    <codigo_programa>02</codigo_programa>
+    <descripcion>Maestría en Educación con mención en Educación Superior</descripcion>
+</programa>
+<programa>
+    <codigo_area>03</codigo_area>
+    <codigo_programa>03</codigo_programa>
+    <descripcion>Maestría en Educación con especialidad en Organización y Gestión de Centros Educativos</descripcion>
+</programa>
+<programa>
+    <codigo_area>04</codigo_area>
+    <codigo_programa>01</codigo_programa>
+    <descripcion>Máster Universitario en Actividad Física: Entrenamiento y Gestión Deportiva</descripcion>
+</programa>
+<programa>
+    <codigo_area>04</codigo_area>
+    <codigo_programa>02</codigo_programa>
+    <descripcion>Maestría en Ciencias Naturopáticas</descripcion>
+</programa>
+<programa>
+    <codigo_area>05</codigo_area>
+    <codigo_programa>01</codigo_programa>
+    <descripcion>Máster Universitario en Diseño, Gestión y Dirección de Proyectos</descripcion>
+</programa>
+<programa>
+    <codigo_area>05</codigo_area>
+    <codigo_programa>02</codigo_programa>
+    <descripcion>Maestría en Diseño, Dirección y Gestión de Proyectos con especialidad en Innovación y Productos</descripcion>
+</programa>
+<programa>
+    <codigo_area>05</codigo_area>
+    <codigo_programa>03</codigo_programa>
+    <descripcion>Maestría en Diseño, Dirección y Gestión de Proyectos con especialidad en Arquitectura y Urbanismo</descripcion>
+</programa>
+</entidad>

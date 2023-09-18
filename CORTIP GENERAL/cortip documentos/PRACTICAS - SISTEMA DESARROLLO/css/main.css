@@ -1,0 +1,51 @@
+.fondo_top {
+    height: 50px;
+    width: 100%;
+    background-color: blanchedalmond;
+}
+
+.container-class {
+    margin: 15px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    
+}
+
+
+form {
+    padding: 5px;
+}
+
+.form_bita {
+    margin: 10px;
+    width: 45%;
+    height: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.subcontainer_iframe{
+    margin: 10px;
+    margin-left: 5%;
+    width: 45%;
+    height: 100%;
+}
+.btn_pdf{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 10px;
+}
+.btn_verArchivo{
+    margin-left: 10px;
+}
+
+.btn_options{
+    margin-top: 20px;
+    text-align: right;
+}
+.grid_datos_users{
+    height: 50%;
+    width: 100%;
+    margin: 20px;
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: blue;
+}
+
+
+.div-titulo, ul {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.div-titulo h1, ul{
+
+    font-weight: 300;
+}
+
+.contenedor{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+
+}
+
+.contenedor .div-formulario{
+    width: 30%;
+    height: 250px;
+    margin: 15px 15px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(red, green, blue, alpha);
+}
+
+.contenedor .div-formulario h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: blanchedalmond;
+
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 90%;
+    padding: 15px 10px;
+    margin: 10px 10px;
+}
+
+.contenedor .div-listado{
+    width: 80%;
+    background-color: rgb(85, 42, 165);
+    gap: 2em;
+}
+
+.contenedor .div-formulario .div-empleados{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: bisque;
+}
+
+
+hr{
+    width: 100%;
+    height: 1px;
+}
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+.btn-editar {
+    background-color: burlywood;
+}
+.btn-eliminar {
+    background-color: red;
+}

@@ -1,0 +1,399 @@
+{
+  "data-user": [
+    {
+      "id": 1,
+      "name": "Carlos",
+      "lastname": "García",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Jefe de Area",
+      "area_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Luis",
+      "lastname": "Mendoza",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Asistente",
+      "area_id": 3
+    },
+    {
+      "id": 3,
+      "name": "Eduardo",
+      "lastname": "Torres",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Administrador",
+      "area_id": 3
+    },
+    {
+      "id": 4,
+      "name": "Javier",
+      "lastname": "Flores",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Inspector",
+      "area_id": 4
+    },
+    {
+      "id": 5,
+      "name": "Veronica",
+      "lastname": "Acosta",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Jefe de Area",
+      "area_id": 5
+    },
+    {
+      "id": 6,
+      "name": "Andrea",
+      "lastname": "Espinoza",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Jefe de Area",
+      "area_id": 6
+    }
+  ],
+  "data-area": [
+    {
+      "id": 1,
+      "name": "Estación de bombeo",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Siembra",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Cosecha",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Raceways",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Mantenimiento",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "name": "Máquinas de equipo pesado",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Construcción",
+      "description": ""
+    },
+    {
+      "id": 8,
+      "name": "Piscinas",
+      "description": ""
+    },
+    {
+      "id": 9,
+      "name": "Cocinas",
+      "description": ""
+    },
+    {
+      "id": 10,
+      "name": "Baños de Campamentos",
+      "description": ""
+    },
+    {
+      "id": 11,
+      "name": "Dormitorios de Campamentos",
+      "description": ""
+    },
+    {
+      "id": 12,
+      "name": "Departamento Medico",
+      "description": ""
+    },
+    {
+      "id": 13,
+      "name": "Seguridad y Salud Ocupacional",
+      "description": ""
+    }
+  ],
+  "data-subarea": [
+    {
+      "id": 1,
+      "name": "Suelos y pasillos",
+      "description": "",
+      "area_id": 9
+    },
+    {
+      "id": 2,
+      "name": "Limpieza y protección",
+      "description": "",
+      "area_id": 9
+    },
+    {
+      "id": 3,
+      "name": "Seguridad alimentaria",
+      "description": "",
+      "area_id": 9
+    },
+    {
+      "id": 4,
+      "name": "Estado del Motor",
+      "description": "",
+      "area_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Seguridad en el Área",
+      "description": "",
+      "area_id": 1
+    },
+    {
+      "id": 6,
+      "name": "Estado de la fuente",
+      "description": "",
+      "area_id": 1
+    },
+    {
+      "id": 7,
+      "name": "General",
+      "description": "",
+      "area_id": 1
+    },
+    {
+      "id": 8,
+      "name": "Limpieza de raceways",
+      "description": "",
+      "area_id": 4
+    },
+    {
+      "id": 9,
+      "name": "Siembra en raceways",
+      "description": "",
+      "area_id": 4
+    },
+    {
+      "id": 10,
+      "name": "Alimentación en raceways",
+      "description": "",
+      "area_id": 4
+    }
+  ],
+  "data-checklist": [
+    {
+      "id": 1,
+      "description": "El sitio se encuentra limpio y ordenado",
+      "subarea_id": 1,
+      "area_id": 9
+    },
+    {
+      "id": 2,
+      "description": "Existe orden y limpieza en el sitio de trabajo",
+      "subarea_id": 1,
+      "area_id": 9
+    },
+    {
+      "id": 3,
+      "description": "Los implementos de cocina son adecuados para el trabajo",
+      "subarea_id": 1,
+      "area_id": 9
+    },
+    {
+      "id": 4,
+      "description": "Los lugares de conservación de los alimentos están secos, limpios y ventilados",
+      "subarea_id": 1,
+      "area_id": 9
+    },
+    {
+      "id": 5,
+      "description": "Se clasifica los vegetales y carnes al almacenar / Se aplican normas de higiene en la manipulación de alimentos",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 6,
+      "description": "Los tanques de gas se encuentran en la parte exterior de la cocina y debidamente señalizados",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 7,
+      "description": "Constas con sistemas de combate de incendio (extintores)",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 8,
+      "description": "Se verifica el buen funcionamiento de la cadena de frio de los alimentos refrigerados y congelados",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 9,
+      "description": "Los alimentos cárnicos y lácteos se encuentran a la temperatura idónea entre 0 - 8 °C",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 10,
+      "description": "Existe agua suficiente y de óptima calidad en el procesamiento de los alimentos",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 11,
+      "description": "El personal utiliza el uniforme apropiado para para trabajo en cocina",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 12,
+      "description": "Existe control sobre la prohibición de fumar, prendas y licor",
+      "subarea_id": 3,
+      "area_id": 9
+    },
+    {
+      "id": 13,
+      "description": "Se aplican procedimientos de BPM",
+      "subarea_id": 2,
+      "area_id": 9
+    },
+    {
+      "id": 14,
+      "description": "El personal de cocina utiliza los epp",
+      "subarea_id": 2,
+      "area_id": 9
+    },
+    {
+      "id": 15,
+      "description": "Cumplen con los horarios de limpieza / Se aplican procedimientos de limpieza e higiene",
+      "subarea_id": 2,
+      "area_id": 9
+    },
+    {
+      "id": 16,
+      "description": "Cumplen con el horario de botar la basura / Se realiza mantenimiento preventivo a las máquinas y herramientas de cocina",
+      "subarea_id": 2,
+      "area_id": 9
+    },
+    {
+      "id": 17,
+      "description": "Al final de la jornada los depósitos de basura quedan vacíos",
+      "subarea_id": 2,
+      "area_id": 9
+    },
+    {
+      "id": 18,
+      "description": "Las perchas para los alimentos se encuentran en buen estado",
+      "subarea_id": 2,
+      "area_id": 9
+    },
+    {
+      "id": 19,
+      "description": "Se aplica un programa de limpieza y desinfección al final de c/jornada",
+      "subarea_id": 2,
+      "area_id": 9
+    },
+    {
+      "id": 20,
+      "description": "El personal utiliza sus equipos de protección para la limpieza de los raceways",
+      "subarea_id": 8,
+      "area_id": 4
+    },
+    {
+      "id": 21,
+      "description": "Los químicos a utilizar están debidamente señalizados",
+      "subarea_id": 8,
+      "area_id": 4
+    },
+    {
+      "id": 22,
+      "description": "Se tiene siempre a mano la hoja de datos de los químicos",
+      "subarea_id": 8,
+      "area_id": 4
+    },
+    {
+      "id": 23,
+      "description": "En casos de salpicadura de algún químico sabe que hacer",
+      "subarea_id": 8,
+      "area_id": 4
+    },
+    {
+      "id": 24,
+      "description": "Existe correcto sistema eléctrico",
+      "subarea_id": 8,
+      "area_id": 4
+    },
+    {
+      "id": 25,
+      "description": "Existe algún método para la siembra",
+      "subarea_id": 9,
+      "area_id": 4
+    },
+    {
+      "id": 26,
+      "description": "Han existido accidentes al momento de la siembra",
+      "subarea_id": 9,
+      "area_id": 4
+    },
+    {
+      "id": 27,
+      "description": "Luego de una siembra exitosa se deja el área limpia y ordenada",
+      "subarea_id": 9,
+      "area_id": 4
+    },
+    {
+      "id": 28,
+      "description": "Conoce los riesgos al momento de siembra en raceways",
+      "subarea_id": 9,
+      "area_id": 4
+    },
+    {
+      "id": 29,
+      "description": "La manipulación del caldero la realiza alguien especializado",
+      "subarea_id": 9,
+      "area_id": 4
+    },
+    {
+      "id": 30,
+      "description": "Los blowers emiten mucho ruido",
+      "subarea_id": 9,
+      "area_id": 4
+    },
+    {
+      "id": 31,
+      "description": "El área de trabajo se encuentra limpia y ordenada",
+      "subarea_id": 10,
+      "area_id": 4
+    },
+    {
+      "id": 32,
+      "description": "La bodega de alimento se encuentra debidamente señalizada",
+      "subarea_id": 10,
+      "area_id": 4
+    },
+    {
+      "id": 33,
+      "description": "Conoce usted la clases de alimento que se da en raceways",
+      "subarea_id": 10,
+      "area_id": 4
+    },
+    {
+      "id": 34,
+      "description": "La balanza se encuentra en buen estado",
+      "subarea_id": 10,
+      "area_id": 4
+    },
+    {
+      "id": 35,
+      "description": "Existen extintores para esta área",
+      "subarea_id": 10,
+      "area_id": 4
+    }
+  ]
+}

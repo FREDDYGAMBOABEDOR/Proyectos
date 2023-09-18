@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<entidad>
+<area>
+    <codigo_area>01</codigo_area>
+    <descripcion>Departamento de Medio Ambiente y Sostenibilidad</descripcion>
+</area>
+<area>
+    <codigo_area>02</codigo_area>
+    <descripcion>Departamento de Innovación, Empresa y Nuevas Tecnologías</descripcion>
+</area>
+<area>
+    <codigo_area>03</codigo_area>
+    <descripcion>Departamento de Ciencias del Lenguaje, Educación y Comunicación </descripcion>
+</area>
+<area>
+    <codigo_area>04</codigo_area>
+    <descripcion>Departamento de Ciencias de la Salud </descripcion>
+</area>
+<area>
+    <codigo_area>05</codigo_area>
+    <descripcion>Departamento de Proyectos</descripcion>
+</area>
+</entidad>

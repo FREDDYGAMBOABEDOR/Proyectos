@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "user_id": 1,
+      "name": "Carlos",
+      "lastname": "García",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Jefe de Area",
+      "area_id": 1
+    },
+    {
+      "user_id": 2,
+      "name": "Luis",
+      "lastname": "Mendoza",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Asistente",
+      "area_id": 3
+    },
+    {
+      "user_id": 3,
+      "name": "Eduardo",
+      "lastname": "Torres",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Administrador",
+      "area_id": 3
+    },
+    {
+      "user_id": 4,
+      "name": "Javier",
+      "lastname": "Flores",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Inspector",
+      "area_id": 4
+    },
+    {
+      "user_id": 5,
+      "name": "Veronica",
+      "lastname": "Acosta",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Jefe de Area",
+      "area_id": 5
+    },
+    {
+      "user_id": 6,
+      "name": "Andrea",
+      "lastname": "Espinoza",
+      "email": "gslixby0@abc.net.au",
+      "password": "gslixby0@abc.net.au",
+      "role": "Jefe de Area",
+      "area_id": 6
+    }
+  ]
+}

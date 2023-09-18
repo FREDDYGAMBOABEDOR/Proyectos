@@ -1,0 +1,67 @@
+cd .. (moverse entre carpetas)
+git init (Inicia conexion)
+git status (Checa las modificaciones preparadas y no preparadas)
+git add nombrearchivo (Agrega el archivo a la fila de modificaciones)
+gir add . (Agrega todos los archivos a la fila de modificaciones)
+git comit -m "Descripcion simple" (Agrega las modificaciones)
+git comit -a -m "Descripcion simple" (Agrega las modificaciones directamente sin la necesidad de 'git add .')
+git push (Exporta las modificaciones al servidor)
+
+cat .gitignore(ignorar archivos) GITIGNORE=archivo creado con las excepciones:
+
+	
+    Las reglas sobre los patrones que puedes incluir en el archivo .gitignore son las siguientes:
+
+    Ignorar las líneas en blanco y aquellas que comiencen con #.
+
+    Emplear patrones glob estándar que se aplicarán recursivamente a todo el directorio del repositorio 
+    local.
+
+    Los patrones pueden comenzar en barra (/) para evitar recursividad.
+
+    Los patrones pueden terminar en barra (/) para especificar un directorio.
+
+    Los patrones pueden negarse si se añade al principio el signo de exclamación (!).
+
+    Los patrones glob son una especie de expresión regular simplificada usada por los terminales. 
+    Un asterisco (*) corresponde a cero o más caracteres; [abc] corresponde a cualquier caracter dentro de 
+    los corchetes (en este caso a, b o c); el signo de interrogación (?) corresponde a un caracter cualquiera; 
+    y los corchetes sobre caracteres separados por un guión ([0-9]) corresponde a cualquier caracter entre ellos 
+    (en este caso del 0 al 9). También puedes usar dos asteriscos para indicar directorios anidados; a/**/z 
+    coincide con a/z, a/b/z, a/b/c/z, etc.
+
+git diff (Muestra los cambios de manera mas detallada)
+rm nombredelarchivo (Elimina archivo)
+
+git log --oneline (Muestra la descripciones de las diferentes modificaciones)
+		[git log cheatsheet https://devhints.io/git-log](COSAS QUE PODEMOS AGREGAR AL git log)
+git log --prety="format: %..." (Nos permite mostrar las modificaciones en el formato que necesitemos)
+PUEDEN SER: https://devhints.io/git-log-format
+git log -p (Muestra las modificaciones de los archivos[lineas en especifico])
+git log --graph (Muestra cambios[uniones de brenchs] de manera grafica)
+	:q [se usa para salir de git log]
+
+git init --bare "ruta" (Crea un repositorio simple para git push y git pull, pero nunca se comprometería 
+				directamente con él, es decir un repositorio puro).
+git pull (Importa archivos del servidor)
+
+git branch (Nos permite ver repositorios) 
+git branch nombre (Crea un nuevo repositorio)
+git checkout nombre (Nos movemos a ese repositorio)
+git commit (Confirma repositorios)
+   :x [nos permite salir de commit]
+
+git restore nombrearchivo (Descarta cambios en el archivo)
+git restore --staged nombrearchivo (Descarta cambios antes de commitear)
+git revert "Id commit" (Desace el commit en cuestion)
+
+git stash (Guarda archivo temporal antes de commetear)
+git stash list(Muestra lista de los archivos temporales)
+git stash drop [numero del archivo en la lista] (Borra el archivo temporal en concreto)
+git stash pop (Agrega la ultima modificacion echa en el stach e inmediatamente lo borra de la lista)
+	git checkout "id_commit" (Restaura la version en cuestion)
+	git diff "id_commit".."id_commit" (Nos muestra las diferencias especificas entre cada una)[Los dos puntos representan 'entre']
+git tag -a Nombre -m "Breve descripcion" (Guarda la version que no se podra modificar es decir una version estable)
+git tag (Muestra las diferentes versiones)	
+git push origin master version (Envia al server la version dada) 
+

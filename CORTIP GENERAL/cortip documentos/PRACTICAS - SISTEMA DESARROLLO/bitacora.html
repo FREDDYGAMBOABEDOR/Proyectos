@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bitacora</title>
+
+    <!-- link css and boopstrap 4 -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/iframe.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="fondo_top" style="margin-top: 10px; margin-bottom: 15px;"> </div>
+    <div class="container-class">
+        <div class="form_bita">
+            <form method="" >
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">N° cedula</span>
+                        </div>
+                        <input type="number" class="form-control" id="7" placeholder="0000000" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-primary" type="button">Buscar</button>
+                            <!---##################################################### --->
+                            <!---##################################################### --->
+                        </div>                    
+
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Recibido por</span>
+                        </div>
+                        <input type="text" class="form-control" id="1" placeholder="" aria-label="Username" aria-describedby="basic-addon1" style="width: 300px;">
+                    </div>
+
+                    <!--<input type="number" class="form-control" id="1" placeholder="name@example.com" style="width: 400px;">-->
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Tipo de documento</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected disabled>Seleccionar estado</option>
+                            <option value="1">Solicitud de retiro</option>
+                            <option value="2">Solicitud de deposito</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">Fecha de envio</span>
+                        </div>
+                        <input type="date" class="form-control" id="1" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" style="width: 300px;">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Estado</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected disabled>Seleccionar estado</option>
+                            <option value="1">Activo</option>
+                            <option value="2">Inactivo</option>
+                        </select>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+
+        <!-- ########################################################### -->
+
+        <div class="subcontainer_iframe">
+            <div class="embed-responsive" style="width:600px; height: 420px;">
+                <iframe class="embed-responsive-item" src="https://www.linuxadictos.com/wp-content/uploads/pdf-logo.jpg" allowfullscreen></iframe>
+            </div> 
+            <div class="btn_pdf">
+                <div class="btn_subirArchivo">
+                    <label for="subir">Peso maximo del archivo 2Mb</label>
+                    <button type="button" id="subir" class="btn btn-secondary">Subir archivo</button>
+                </div>
+                <div class="btn_verArchivo">
+                    <button type="button" id="ver" class="btn btn-primary">Ver archivo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid_datos_users">
+        <div class="tabla_bitacora">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">N°</th>
+                  <th scope="col">Fecha de envio</th>  
+                  <th scope="col">Fecha de recibido</th>
+                  <th scope="col">Receptado por</th>
+                  <th scope="col">Descripcion</th>
+                  <th scope="col">Estado</th>
+                  <th scope="col">URL</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>17-03-2022</td>
+                  <td>17-03-2022</td>
+                  <td>Marcos</td>
+                  <td>Solicitud de retiro</td>
+                  <td>Inactivo</td>
+                  <td>https://www.holamundo.com.ec/archivopdf.pdf</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="btn_options">
+            <button type="button" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-secondary">Modificar</button>
+            <button type="button" class="btn btn-light">Cancelar</button>
+        </div>
+        
+    </div>
+
+    <!--
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	Curso desde 0
+	<h1>Los archivo deben segir las ruta xampp - htcdog y pegarlos , los archivos leen primero el index </h1>
+
+
+</head>
+<body>
+    <script type="text/javascript">
+    	//Objeto Json
+    
+    function decirHola(){// funcion con nombre
+    	alert("hola");
+    }
+
+    var puerta =
+    {
+    	"id": 1,
+    	"nombre":"Puerta de roble",
+    	"precio": 250.50,
+    	"etiquetas":["puerta","madera","caña"],
+    	
+
+        decirAdios:function(){ // Declarando funcion dentro de objetos
+    		alert("adios");
+
+           // this.decirAdios(); se lo puerde llamar en la misma funcion
+
+            },//la , es importante para agregar otra funcion
+    	
+
+        getDatos:function(){ // Declarando funcion dentro de objetos
+            alert("Etiquetas " + this.etiquetas[0]);
+            alert("La puerta es " + puerta.etiquetas[1]);
+            alert(puerta.id);
+            alert(this.precio);/*this llama la funcion que es puerta*/
+
+        /* this.decirAdios(); se lo puerde llamar en la misma funcion pero de otra funcion*/},
+
+        sumaIva: function (precio, iva){
+            var resul = precio + iva;
+            return resul;
+
+
+
+        },
+//-------------------BOOLEANS-------
+venta: true,
+inventario: null
+
+
+
+    }
+
+
+//----- Una clase atravez de una funcion
+
+function Casa (valor, tamTerreno, color){
+
+    // atributos
+    this.valor = valor;
+    this.tamTerreno = tamTerreno;
+    this.color = color;
+
+
+
+    // metodos o funciones
+    this.darTecho = function (){
+           alert (" todo tiene techo");
+    }
+    this.darProteccion = function (){
+        alert (" Todos estan protegidos");
+    }
+
+
+}
+//----------
+    console.log(puerta["nombre"]);
+    console.log(puerta.precio);// aceder a un objeto
+    console.log(puerta.id);
+
+    alert(puerta.etiquetas[2]);// por la posicion
+
+    decirHola();   // llamada de funcion
+    puerta.decirAdios(); // llamada de funcion dentro de objetos.
+    //puerta.decirAdios();
+
+    puerta.getDatos();
+//--------------------------------------------
+    var resultado = puerta.sumaIva(puerta.precio,20)
+    alert ("El resultado es " + resultado)
+//se llama al objeto con la funcion y se le pasan los parametro declarado en la funcion
+//---------------BOLEANS-----------------------------
+   if (puerta.venta){ alert("Si hay puertas");
+
+   }else{alert ("ya no hay")};
+
+   Casa();
+
+
+    </script>
+
+   
+
+    
+
+    
+</body>
+</html>

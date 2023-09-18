@@ -1,0 +1,69 @@
+{
+  "data": [
+    {
+      "area_id": 1,
+      "name": "Estación de bombeo",
+      "description": ""
+    },
+    {
+      "area_id": 2,
+      "name": "Siembra",
+      "description": ""
+    },
+    {
+      "area_id": 3,
+      "name": "Cosecha",
+      "description": ""
+    },
+    {
+      "area_id": 4,
+      "name": "Raceways",
+      "description": ""
+    },
+    {
+      "area_id": 5,
+      "name": "Mantenimiento",
+      "description": ""
+    },
+    {
+      "area_id": 6,
+      "name": "Máquinas de equipo pesado",
+      "description": ""
+    },
+    {
+      "area_id": 7,
+      "name": "Construcción",
+      "description": ""
+    },
+    {
+      "area_id": 8,
+      "name": "Piscinas",
+      "description": ""
+    },
+    {
+      "area_id": 9,
+      "name": "Cocinas",
+      "description": ""
+    },
+    {
+      "area_id": 10,
+      "name": "Baños de Campamentos",
+      "description": ""
+    },
+    {
+      "area_id": 11,
+      "name": "Dormitorios de Campamentos",
+      "description": ""
+    },
+    {
+      "area_id": 12,
+      "name": "Departamento Medico",
+      "description": ""
+    },
+    {
+      "area_id": 13,
+      "name": "Seguridad y Salud Ocupacional",
+      "description": ""
+    }
+  ]
+}
